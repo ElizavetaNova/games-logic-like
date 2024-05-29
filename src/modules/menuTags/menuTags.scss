@@ -1,0 +1,25 @@
+.menu {
+    width: 264px;
+    border: 1px solid #CFCFE4;
+    border-radius: 18px;
+    padding: 12px;
+    height: fit-content;
+    box-sizing: border-box;
+
+    .menu-item {
+        padding: 12px;
+        border-radius: 12px;
+        color: #39414B;
+        font-family: Nunito;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 18px;
+        text-align: left;
+        cursor: pointer;
+
+        &--checked {
+            background-color: #5FBF77;
+            color: white;
+        }
+    }
+}
